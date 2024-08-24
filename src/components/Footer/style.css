@@ -1,0 +1,80 @@
+.Logo_img {
+    height: 115.7px;
+    width: 300px;
+    position: relative;
+}
+
+.company {
+    font-size: 14px;
+    font-family: "Krona One";
+    color: #787B81;
+    min-width: 94px;
+}
+
+.about_us, .company, .faq, .partnerships {
+    position: relative;
+    display: inline-block;
+}
+
+.about_us {
+    text-decoration: none;
+    color: inherit;
+    min-width: 66px;
+}
+
+.faq, .partnerships {
+    min-width: 94px;
+}
+
+.faq {
+    text-decoration: none;
+    color: inherit;
+    min-width: 28px;
+}
+
+.company_parent {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 6px;
+}
+
+.company_info, .company_links, .footer {
+    overflow: hidden;
+    display: flex;
+    max-width: 100%;
+}
+
+.company_links {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.company_info, .footer {
+    align-self: stretch;
+}
+
+.company_info {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 30px;
+}
+
+.footer {
+    background-color: #0e1015;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 32px 100px;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: Karla;
+}

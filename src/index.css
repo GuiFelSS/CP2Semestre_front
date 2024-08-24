@@ -1,0 +1,705 @@
+:root {
+  background-color: #0e1015;
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+.krona-one-regular {
+  font-family: "Krona One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.karla-uniquifier {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.god-of-war {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  font-family: "Krona One";
+}
+
+.avaliao-da-ratings,
+.god-of-war {
+  position: relative;
+  text-transform: uppercase;
+  font-family: "Krona One";
+}
+
+.rating-label {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 18px 0;
+}
+
+.estrela-1-icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.span {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.rate-button {
+  position: relative;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 68px;
+  font-family: "Krona One";
+}
+
+.rating-title,
+.stars {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stars {
+  flex-direction: row;
+  padding: 17px 0;
+  gap: 10px;
+}
+
+.rating-title {
+  flex-direction: column;
+  min-width: 256px;
+}
+
+.sua-avaliao {
+  text-decoration: none;
+  position: relative;
+  text-transform: uppercase;
+  color: inherit;
+  font-family: "Krona One";
+}
+
+.sua-avaliao-wrapper {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 18px 0;
+}
+
+.estrela-1-1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.avaliar1 {
+  position: relative;
+  display: inline-block;
+  min-width: 72px;
+  font-family: "Krona One";
+}
+
+.estrela-1-1-parent {
+  flex-direction: row;
+  justify-content: center;
+  padding: 17px 20px;
+  gap: 10px;
+}
+
+.background_img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("assets/background.png");
+}
+
+.estrela-1-1-parent,
+.game-highlight,
+.rating-title1,
+.user-rating {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.rating-title1 {
+  flex-direction: column;
+  justify-content: center;
+  min-width: 171px;
+}
+
+.game-highlight,
+.user-rating {
+  flex-direction: row;
+  max-width: 100%;
+}
+
+.user-rating {
+  justify-content: center;
+  gap: 64px;
+  min-width: 491px;
+  font-size: 16px;
+}
+
+.game-highlight {
+  align-self: stretch;
+  justify-content: space-between;
+  padding: 0 100px;
+  box-sizing: border-box;
+  gap: 20px;
+}
+
+.game-image-icon {
+  width: 433px;
+  position: relative;
+  max-height: 100%;
+  flex-shrink: 0;
+  object-fit: cover;
+  min-height: 507px;
+}
+
+.content,
+.game-image-icon,
+.game-image-icon1,
+.image-container {
+  align-self: stretch;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.game-image-icon1 {
+  flex: 1;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  min-width: 521px;
+  min-height: 507px;
+}
+
+.content,
+.image-container {
+  display: flex;
+}
+
+.image-container {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 100px;
+  box-sizing: border-box;
+  gap: 6px;
+}
+
+.content {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 16px;
+  background-image: url(/public/content@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: 32px;
+  color: #fff;
+  font-family: "Krona One";
+}
+
+.avaliao-em-destaque {
+  position: relative;
+  text-transform: uppercase;
+  font-family: "Krona One";
+}
+
+.avaliao-em-destaque-wrapper {
+  border-radius: 8px 4px 24px 8px;
+  background-color: #d5224e;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 32px;
+  box-sizing: border-box;
+  white-space: nowrap;
+  max-width: 100%;
+}
+
+.estrela-1-icon1 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.span1 {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.div {
+  position: relative;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 61px;
+}
+
+.estrela-1-parent,
+.frame-container {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.estrela-1-parent {
+  justify-content: flex-start;
+  padding: 10px;
+  gap: 10px;
+  font-family: "Krona One";
+}
+
+.frame-container {
+  align-self: stretch;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 20px;
+}
+
+.caiohalbert {
+  position: relative;
+  display: inline-block;
+  min-width: 86px;
+}
+
+.caiohalbert-wrapper {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.de-novembro-de {
+  position: relative;
+}
+
+.de-novembro-de-2022-wrapper,
+.frame-div {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #787b81;
+}
+
+.frame-div {
+  align-self: stretch;
+  justify-content: space-between;
+  padding: 0 32px;
+  gap: 20px;
+  color: #d5224e;
+  font-family: Karla;
+}
+
+.what-an-incredible {
+  align-self: stretch;
+  position: relative;
+  font-size: 20px;
+}
+
+.a-fantastic-and-container {
+  align-self: stretch;
+  position: relative;
+  font-family: "Karla";
+}
+
+.div1 {
+  position: relative;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 27px;
+}
+
+.social-network-1-parent {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.Deslike {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.div2 {
+  position: relative;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 19px;
+}
+
+.frame-parent2,
+.hand-1-parent {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.hand-1-parent {
+  justify-content: center;
+  gap: 12px;
+}
+
+.frame-parent2 {
+  width: 179px;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+
+.fi-br-menu-dots-vertical-icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+
+.frame-group,
+.frame-parent1,
+.frame-wrapper {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  margin: 30px;
+}
+
+.frame-parent1 {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  gap: 20px;
+  font-family: "Krona One";
+}
+
+.frame-group,
+.frame-wrapper {
+  flex-direction: column;
+  max-width: 100%;
+}
+
+.frame-group {
+  border-radius: 8px;
+  background-color: #1c171d;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 32px 32px 6px;
+  box-sizing: border-box;
+  gap: 12px;
+}
+
+.frame-wrapper {
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 16px;
+  color: #fff;
+  font-family: "Krona One";
+}
+
+.avaliao-em-destaque1 {
+  position: relative;
+  text-transform: uppercase;
+  font-family: "Krona One";
+}
+
+.avaliao-em-destaque-container {
+  border-radius: 8px 4px 24px 8px;
+  background-color: #d5224e;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 32px;
+  box-sizing: border-box;
+  white-space: nowrap;
+  max-width: 100%;
+}
+
+.estrela-1-icon2 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.span2 {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.div3 {
+  position: relative;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 61px;
+}
+
+.estrela-1-group,
+.frame-parent4 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.estrela-1-group {
+  justify-content: flex-start;
+  padding: 10px;
+  gap: 10px;
+  font-family: "Krona One";
+}
+
+.frame-parent4 {
+  align-self: stretch;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 20px;
+}
+
+.claudiarayara {
+  position: relative;
+  display: inline-block;
+  min-width: 106px;
+}
+
+.claudiarayara-wrapper {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.de-novembro-de1 {
+  position: relative;
+}
+
+.de-novembro-de-2022-container,
+.frame-parent5 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #787b81;
+}
+
+.frame-parent5 {
+  align-self: stretch;
+  justify-content: space-between;
+  padding: 0 32px;
+  gap: 20px;
+  color: #d5224e;
+  font-family: "Karla";
+}
+
+.this-game-took {
+  align-self: stretch;
+  position: relative;
+  font-size: 20px;
+  font-family: "Krona One";
+}
+
+.warning-spoilers {
+  width: 1132px;
+  position: relative;
+  display: inline-block;
+  max-width: calc(100% - 24px);
+}
+
+.fi-br-angle-small-down-icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.spoiler-alert {
+  align-self: stretch;
+  border-radius: 8px;
+  background-color: #0e1015;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 10px 10px 5px;
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: 0;
+  row-gap: 20px;
+  color: #ff003f;
+  font-family: Karla;
+}
+
+.Like {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.div4 {
+  position: relative;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 28px;
+}
+
+.social-network-1-group {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.div5 {
+  position: relative;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 15px;
+}
+
+.frame-parent6,
+.hand-1-group {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.hand-1-group {
+  justify-content: center;
+  gap: 12px;
+}
+
+.frame-parent6 {
+  width: 179px;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+
+.fi-br-menu-dots-vertical-icon1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+
+.frame-footer,
+.frame-parent3,
+.frame-wrapper1 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+}
+
+.frame-footer {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 32px;
+  gap: 20px;
+  text-align: left;
+  font-size: 16px;
+  color: #fff;
+  font-family: "Krona One";
+}
+
+.frame-parent3,
+.frame-wrapper1 {
+  flex-direction: column;
+  max-width: 100%;
+}
+
+.frame-parent3 {
+  border-radius: 8px;
+  background-color: #1c171d;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 32px 32px 6px;
+  box-sizing: border-box;
+  gap: 12px;
+  margin: 30px;
+}
+
+.frame-wrapper1 {
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 16px;
+  color: #fff;
+  font-family: "Krona One";
+}
+
+.enredo_div{
+  display: flex;
+  align-self: stretch;
+  position: relative;
+  margin: 50px 30px 0px 50px;
+}
+
+.enredo{
+  font-family: "Krona One";
+}
+
+.enredo_text{
+  margin: 0px 0px 70px 50px;
+}
+
+.avaliações_usuários{
+  display: flex;
+  align-self: stretch;
+  position: relative;
+  margin: 20px 20px 0px 30px;
+}
