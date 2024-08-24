@@ -25,7 +25,7 @@ createRoot(document.getElementById('root')!).render(
         <div className="user-rating">
           <div className="rating-title">
             <div className="rating-label">
-              <div className="avaliao-da-ratings">Avaliação da ratings</div>
+              <div className="avaliao-da-ratings">AVALIAÇÃO DA RATINGS</div>
             </div>
             <div className="stars">
               <img className="estrela-1-icon" loading="lazy" alt="" src={estrela_cheia} />
@@ -37,7 +37,7 @@ createRoot(document.getElementById('root')!).render(
           </div>
           <div className="rating-title1">
             <div className="sua-avaliao-wrapper">
-              <a className="sua-avaliao">sua avaliação</a>
+              <a className="sua-avaliao">SUA AVALIAÇÃO</a>
             </div>
             <div className="estrela-1-1-parent">
               <img className="estrela-1-1" loading="lazy" alt="" src={estrela_vazada} />
@@ -66,11 +66,11 @@ createRoot(document.getElementById('root')!).render(
     <div className="frame-group">
       <div className="frame-container">
         <div className="avaliao-em-destaque-wrapper">
-          <div className="avaliao-em-destaque">avaliação em destaque</div>
+          <div className="avaliao-em-destaque">AVALIAÇÃO EM DESTAQUE</div>
         </div>
         <div className="estrela-1-parent">
           <img className="estrela-1-icon1" alt="" src={estrela_cheia} />
-          <div className="div">
+          <div className="nota">
             <span>10</span>
             <span className="span1">/10</span>
           </div>
@@ -124,7 +124,7 @@ createRoot(document.getElementById('root')!).render(
     <div className="frame-parent3">
       <div className="frame-parent4">
         <div className="avaliao-em-destaque-container">
-          <div className="avaliao-em-destaque1">avaliação em destaque</div>
+          <div className="avaliao-em-destaque1">AVALIAÇÃO EM DESTAQUE</div>
         </div>
         <div className="estrela-1-group">
           <img className="estrela-1-icon2" alt="" src={estrela_cheia}/>

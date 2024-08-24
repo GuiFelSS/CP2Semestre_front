@@ -39,7 +39,6 @@ body {
 .avaliao-da-ratings,
 .god-of-war {
   position: relative;
-  text-transform: uppercase;
   font-family: "Krona One";
 }
 
@@ -67,7 +66,6 @@ body {
 
 .rate-button {
   position: relative;
-  text-transform: uppercase;
   display: inline-block;
   min-width: 68px;
   font-family: "Krona One";
@@ -95,7 +93,6 @@ body {
 .sua-avaliao {
   text-decoration: none;
   position: relative;
-  text-transform: uppercase;
   color: inherit;
   font-family: "Krona One";
 }
@@ -229,7 +226,6 @@ body {
 
 .avaliao-em-destaque {
   position: relative;
-  text-transform: uppercase;
   font-family: "Krona One";
 }
 
@@ -259,9 +255,8 @@ body {
   color: rgba(255, 255, 255, 0.5);
 }
 
-.div {
+.nota {
   position: relative;
-  text-transform: uppercase;
   display: inline-block;
   min-width: 61px;
 }
@@ -339,7 +334,6 @@ body {
 
 .div1 {
   position: relative;
-  text-transform: uppercase;
   display: inline-block;
   min-width: 27px;
 }
@@ -363,7 +357,6 @@ body {
 
 .div2 {
   position: relative;
-  text-transform: uppercase;
   display: inline-block;
   min-width: 19px;
 }
@@ -441,7 +434,6 @@ body {
 
 .avaliao-em-destaque1 {
   position: relative;
-  text-transform: uppercase;
   font-family: "Krona One";
 }
 
@@ -473,7 +465,6 @@ body {
 
 .div3 {
   position: relative;
-  text-transform: uppercase;
   display: inline-block;
   min-width: 61px;
 }
@@ -587,7 +578,6 @@ body {
 
 .div4 {
   position: relative;
-  text-transform: uppercase;
   display: inline-block;
   min-width: 28px;
 }
@@ -603,7 +593,6 @@ body {
 
 .div5 {
   position: relative;
-  text-transform: uppercase;
   display: inline-block;
   min-width: 15px;
 }
